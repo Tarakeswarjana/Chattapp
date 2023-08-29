@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+      "node": ">=14.20.1"
+    },
   "scripts": {
     "start": "nodemon backend/server.js"
   },
@@ -16,8 +19,5 @@
     "jsonwebtoken": "^9.0.0",
      "mongoose": "^7.4.5",
     "nodemon": "^2.0.0"
-  },
-  "engines": {
-      "node": ">=14.20.1"
-    },
+  }
 }
